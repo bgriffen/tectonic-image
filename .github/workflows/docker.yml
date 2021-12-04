@@ -62,7 +62,7 @@ jobs:
           restore-keys: |
             tectonic-cache-
 
-      - uses: docker://ghcr.io/dfm/tectonic-image:main
+      - uses: docker://ghcr.io/bgriffen/tectonic-image:main
         with:
           args: test/test.tex
         env:
